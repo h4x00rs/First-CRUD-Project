@@ -11,6 +11,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 @Transactional
@@ -32,7 +33,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public UserBean getUserById(Integer userId) {
-        User user = userDao.findOne(userId);
+        Optional<User> user = userDao.findById(userId);
         UserBean bean = converter.convertToBean(user, UserBean.class);
 
         return bean;
@@ -46,6 +47,6 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public void deleteUser(Integer userId) {
-        userDao.delete(userId);
+        userDao.deleteById(userId);
     }
 }
