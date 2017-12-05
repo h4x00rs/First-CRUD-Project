@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/First-CRUD-Project.iml" filepath="$PROJECT_DIR$/First-CRUD-Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-beans/module-beans.iml" filepath="$PROJECT_DIR$/module-beans/module-beans.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-controller/module-controller.iml" filepath="$PROJECT_DIR$/module-controller/module-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-dao/module-dao.iml" filepath="$PROJECT_DIR$/module-dao/module-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-entities/module-entities.iml" filepath="$PROJECT_DIR$/module-entities/module-entities.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-service/module-service.iml" filepath="$PROJECT_DIR$/module-service/module-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/module-web/module-web.iml" filepath="$PROJECT_DIR$/module-web/module-web.iml" />
+    </modules>
+  </component>
+</project>
